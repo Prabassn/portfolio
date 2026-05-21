@@ -272,7 +272,7 @@ export default function App() {
         </h2>
 
         <div className="space-y-10">
-          {projects.map((project, index) => (
+          {projects.map((project: any, index: number) => (
             <motion.div
               whileHover={{ scale: 1.02 }}
               key={index}
@@ -289,7 +289,7 @@ export default function App() {
                   </p>
 
                   <div className="flex flex-wrap gap-3">
-                    {project.tech.map((tech, i) => (
+                    {project.tech.map((tech:any, i:any) => (
                       <span
                         key={i}
                         className="px-4 py-2 bg-white/10 rounded-full text-sm"
