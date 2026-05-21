@@ -34,7 +34,6 @@ const projects = [
     github: "https://github.com/slimycashcodes/EventoPedia",
     live: "#",
   },
-  ,
 
   {
     title: "IPL Match Scheduling System",
@@ -48,7 +47,7 @@ const projects = [
     ],
     github: "https://github.com/Prabassn/IPL-SCHEDULING",
     live: "#",
-  },
+  }
 ];
 
 const skills = [
